@@ -1,0 +1,114 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --yellow:var(--yellow)
+}
+
+
+nav a{
+    color: #e19130;
+}
+
+
+/* header */
+
+header{
+    background-image: url(https://cdn.pixabay.com/photo/2016/09/02/11/10/boots-1638873_1280.jpg);
+    background-position: top;
+    background-repeat: none;
+    height: 100vh;
+    background-size: cover;
+}
+
+.btn-header{
+    width: 150px;
+}
+
+/* main */
+.pants{
+    height: 500px;
+    
+}
+.logoshoes{
+    max-height: 125px;
+    max-width: 200px;
+}
+
+#mySection{
+    margin-top:100px;
+    padding-bottom:50px;
+}
+
+/* Sezione contatori */
+.cst-contatori{
+    background-color: #e19130;
+    border: 5px solid black;
+    border-radius: 100px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+/* INIZIO CARDS */
+.img-cst{
+    height: 290px;
+    
+}
+
+.img-cst, .fa-heart{
+    cursor: pointer;
+}
+/* FINE CARDS */
+
+
+/* bottone cards*/
+.button-6 {
+  align-items: center;
+  background-color:  #e19130;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color:#e19130 ;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.marginmain{
+    margin-top: 200px;
+}
